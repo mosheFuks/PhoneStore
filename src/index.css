@@ -1,0 +1,38 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #0B0D10;
+  --color-surface: #16191D;
+  --color-accent: #C6FF3D;
+  --color-text: #EDEDED;
+  --color-text-secondary: #8A8F98;
+
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
