@@ -1,4 +1,5 @@
-export type Categoria = 'celular' | 'auriculares' | 'tablet' | 'accesorio'
+export type Categoria = 'celular' | 'auriculares' | 'tablet' | 'accesorio' | 'smartwatch' | 'laptop' | 'monitor' | 'teclado' | 'mouse' | 'parlante' | 'cargador' | 'camara'
+
 
 export interface Producto {
   id: string
